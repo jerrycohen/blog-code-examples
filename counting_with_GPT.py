@@ -32,15 +32,11 @@ def loop_prompts (myprompt, n, temp):
         print (gpt_response)
 
 
-prompt1 = f"What is 2+2?"
+prompt2 = f"""
+    How many characters are in the string that is included below and is delimited with triple backticks
+
+    ```zYf7gM2hK9jP3qR5x2r9Lp5sT6Qk3jzYf7gM2hK9jP3qR5x2r9Lp5sT6w8Qk3j```
+    """
 
 print("temperature: 0.2")
-loop_prompts (prompt1,10, 0.2)
-
-print("temperature: 1")
-loop_prompts (prompt1,10, 1)
-
-print("temperature: 2")
-loop_prompts (prompt1,10, 2)
-
-
+loop_prompts (prompt2,20, 0.2)
