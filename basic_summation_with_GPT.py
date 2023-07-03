@@ -1,3 +1,7 @@
+# code by Jerry Cohen
+# https://www.linkedin.com/in/jerryscohen/
+# https://github.com/jerrycohen
+
 import openai
 import os
 
