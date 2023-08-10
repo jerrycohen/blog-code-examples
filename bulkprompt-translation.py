@@ -2,7 +2,7 @@
 ### https://linkedin.com/in/jerryscohen
 
 ## The below code imports a csv file and sends each row to GPT3.5 for translation into other languages
-## You could modify the prompt template to analyze or transpose the input text in anyway you want.   Send me a DM if you need help.
+## You could modify the prompt template to analyze or transform the input text in anyway you want.   Send me a DM if you need help.
 
 import openai
 import os
